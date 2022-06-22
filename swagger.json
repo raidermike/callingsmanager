@@ -2,8 +2,8 @@
 {
     "swagger": "2.0",
     "info": {
-      "title": "My API",
-      "description": "Temple API",
+      "title": "Speakers API",
+      "description": "Church Speakers API",
       "version": "1.0.0"
     },
     "host": "cse341cabreraspeakers.herokuapp.com",
