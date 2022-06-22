@@ -19,7 +19,7 @@
           "responses": {}
         }
       },
-      "/contacts/": {
+      "/speakers/": {
         "get": {
           "description": "",
           "produces": [
@@ -47,13 +47,13 @@
                   "lastName": {
                     "example": "any"
                   },
-                  "email": {
+                  "askedBy": {
                     "example": "any"
                   },
-                  "favoriteColor": {
+                  "lastSpoken": {
                     "example": "any"
                   },
-                  "birthday": {
+                  "topic": {
                     "example": "any"
                   }
                 }
@@ -70,7 +70,7 @@
           }
         }
       },
-      "/contacts/{id}": {
+      "/speakers/{id}": {
         "get": {
           "description": "",
           "produces": [
