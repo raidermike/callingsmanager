@@ -6,7 +6,7 @@
       "description": "Temple API",
       "version": "1.0.0"
     },
-    "host": "cse341nodecabrera.herokuapp.com",
+    "host": "cse341cabreraspeakers.herokuapp.com",
     "basePath": "/",
     "schemes": [
       "https"
