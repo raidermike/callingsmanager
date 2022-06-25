@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/raidermike/callingsmanager#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "eslint": "^8.18.0",
     "express": "^4.18.1",
+    "express-validator": "^6.14.2",
     "mongodb": "^4.7.0",
     "nodemon": "^2.0.16",
     "prettier": "^2.7.1",
