@@ -23,9 +23,11 @@
     "dotenv": "^16.0.1",
     "eslint": "^8.18.0",
     "express": "^4.18.1",
+    "express-openid-connect": "^2.7.2",
     "express-validator": "^6.14.2",
     "mongodb": "^4.7.0",
     "nodemon": "^2.0.16",
+    "oauth": "^0.9.15",
     "prettier": "^2.7.1",
     "swagger-autogen": "^2.21.3",
     "swagger-ui-express": "^4.4.0"
