@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
+const Speakers = require('./controllers/speakers')
 const port = process.env.PORT || 3000;
 const app = express();
 const { auth, requiresAuth } = require('express-openid-connect');
@@ -27,6 +28,7 @@ mongodb.initDb((err, mongodb) => {
   }
 });
 
+
 const config = {
   authRequired: false,
   auth0Logout: true,
@@ -49,12 +51,6 @@ app.get('/profile', requiresAuth(), (req, res) => {
   res.send(JSON.stringify(req.oidc.user));
 });
 
-app.get('/speakers', requiresAuth(), (req, res) => {
-  console.log(req)
-  Speakers.find()
-  .then(speakers => {
-    res.status(200).json(speakers)
-  }).catch(err => {
-    res.status(500).json({ message: 'An error occured', error: err })
-  })
-})
+
+
+

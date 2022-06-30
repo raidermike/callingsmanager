@@ -29,7 +29,7 @@
     "nodemon": "^2.0.16",
     "oauth": "^0.9.15",
     "prettier": "^2.7.1",
-    "swagger-autogen": "^2.21.3",
+    "swagger-autogen": "^2.21.4",
     "swagger-ui-express": "^4.4.0"
   }
 }
