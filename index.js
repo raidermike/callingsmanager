@@ -52,7 +52,7 @@ app.get('/profile', requiresAuth(), (req, res) => {
 });
 
 app.get('/speakers', requiresAuth(), (req, res) => {
-  res.send(`Hello ${req.oidc.user.sub}, this is the speakers section.`)
+  res.send(`Hello ${req.oidc.user.sub}, this is the speakers section.`);
 });
 
 
