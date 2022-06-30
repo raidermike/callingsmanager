@@ -51,8 +51,8 @@ app.get('/profile', requiresAuth(), (req, res) => {
   res.send(JSON.stringify(req.oidc.user));
 });
 
-app.get('/speakers', requiresAuth(), (req, res) =>
+app.get('/speakers', requiresAuth(), (req, res) => {
   res.send(`Hello ${req.oidc.user.sub}, this is the speakers section.`)
-);
+});
 
 
