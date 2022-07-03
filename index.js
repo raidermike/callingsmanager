@@ -55,4 +55,5 @@ app.get('/speakers', requiresAuth(), (req, res) => {
   res.send(`Hello ${req.oidc.user.sub}, this is the speakers section.`);
 });
 
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
